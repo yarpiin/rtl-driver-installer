@@ -34,6 +34,7 @@ makepkg -i
 echo -e "\e[40;38;5;82m Done :) \e[30;48;5;82m You can now use your wifi adapter! \e[0m"
             ;;
         2)
+			#!/bin/bash
 echo -e "\e[40;38;5;82m Installing dependencies \e[30;48;5;82m\e[0m"
 sudo eopkg it -c system.devel
 sudo eopkg it linux-current-headers
@@ -68,7 +69,7 @@ echo -e "\e[40;38;5;82m Done :) \e[30;48;5;82m You can now use your wifi adapter
 
             ;;
         4)
-			#/bin/bash
+			#!/bin/bash
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=6
@@ -126,7 +127,7 @@ echo -e "\e[40;38;5;82m Done :) \e[30;48;5;82m You can now use your wifi adapter
 
             ;;
         3)
-                        #!/bin/bash
+			#!/bin/bash
 echo -e "\e[40;38;5;82m Installing dependencies \e[30;48;5;82m\e[0m"
 sudo equo install gcc --ask
 sudo equo i sys-kernel/sabayon-sources:4.14 --ask
@@ -142,7 +143,7 @@ echo -e "\e[40;38;5;82m Done :) \e[30;48;5;82m You can now use your wifi adapter
 
             ;;
         4)
-                        #!/bin/bash
+			#!/bin/bash
 echo -e "\e[40;38;5;82m Installing dependencies \e[30;48;5;82m\e[0m"
 sudo equo install gcc --ask
 sudo equo i sys-kernel/sabayon-sources:4.18 --ask
@@ -158,7 +159,7 @@ echo -e "\e[40;38;5;82m Done :) \e[30;48;5;82m You can now use your wifi adapter
 
             ;;
 	5)
-                        #!/bin/bash
+			#!/bin/bash
 echo -e "\e[40;38;5;82m Installing dependencies \e[30;48;5;82m\e[0m"
 sudo equo install gcc --ask
 sudo equo i sys-kernel/sabayon-sources:4.19 --ask
@@ -174,7 +175,7 @@ echo -e "\e[40;38;5;82m Done :) \e[30;48;5;82m You can now use your wifi adapter
 
             ;;
 	6)
-                        #!/bin/bash
+			#!/bin/bash
 echo -e "\e[40;38;5;82m Installing dependencies \e[30;48;5;82m\e[0m"
 sudo equo install gcc --ask
 sudo equo i sys-kernel/sabayon-sources:4.20 --ask
