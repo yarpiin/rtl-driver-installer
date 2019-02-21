@@ -6,7 +6,7 @@ BACKTITLE="RTL8812au-Installer"
 TITLE="Distro Selector"
 MENU="Choose one of the following distro's:"
 
-OPTIONS=(1 "Arch"
+OPTIONS=(1 "Arch/Manjaro/Antergos"
          2 "Solus"
          3 "Ubuntu"
          4 "Sabayon"
