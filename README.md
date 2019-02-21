@@ -6,6 +6,10 @@ Currently, the installer use the repository of "[gordboy](https://github.com/gor
 # Preparations
 Before you start installing the WiFi driver, make sure you have all the updates installed. If you have previously installed an update. Restart your computer to avoid errors during installation.
 
+# Dependencies
+
+- Dialog (To run this script)
+
 # Installation
 
 Very simple :)
