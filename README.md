@@ -8,7 +8,7 @@ Before you start installing the WiFi driver, make sure you have all the updates 
 
 # Dependencies
 
-- Dialog (To run this script)
+- Dialog
 
 # Installation
 
