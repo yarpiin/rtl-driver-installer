@@ -10,7 +10,8 @@ OPTIONS=(1 "Arch/Manjaro/Antergos"
          2 "Solus"
          3 "Ubuntu"
          4 "Sabayon"
-         5 "Uninstall")
+         5 "Uninstall"
+	 6 "Reinstall")
 
 CHOICE=$(dialog --clear \
                 --backtitle "$BACKTITLE" \
@@ -205,5 +206,16 @@ sudo make uninstall
 sudo pacman -R rtl8812au-dkms-git
 echo -e "\e[40;38;5;82m Done :) \e[30;48;5;82m Done! \e[0m"
             ;;
+	6)
+			#!/bin/bash
+echo -e "\e[40;38;5;82m Downloading driver \e[30;48;5;82m\e[0m"
+git clone https://github.com/gordboy/rtl8812au.git
+cd rtl8812au
+echo -e "\e[40;38;5;82m Building driver \e[30;48;5;82m\e[0m"
+make
+echo -e "\e[40;38;5;82m Installing driver \e[30;48;5;82m\e[0m"
+sudo make install
+sudo modprobe 8812au
+echo -e "\e[40;38;5;82m Done :) \e[30;48;5;82m You can now use your wifi adapter again! \e[0m"
 esac
 
