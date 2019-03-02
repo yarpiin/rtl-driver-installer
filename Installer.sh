@@ -1,7 +1,7 @@
 #/bin/bash
 HEIGHT=15
 WIDTH=40
-CHOICE_HEIGHT=4
+CHOICE_HEIGHT=6
 BACKTITLE="RTL8812au-Installer"
 TITLE="Distro Selector"
 MENU="Choose one of the following distro's:"
@@ -49,6 +49,44 @@ cho -e "\e[40;38;5;82m Installing driver \e[30;48;5;82m\e[0m"
 sudo make install
 sudo modprobe 8812au
 echo -e "\e[40;38;5;82m Done :) \e[30;48;5;82m You can now use your wifi adapter! \e[0m"
+read -p "Press enter to continue"
+#!/bin/bash
+HEIGHT=15
+WIDTH=40
+CHOICE_HEIGHT=2
+BACKTITLE="RTL8812au-Installer"
+TITLE="Reinstall after kernel update"
+MENU="Should this installer leave files for a reinstallation after a kernel update?:"
+
+OPTIONS=(1 "Yes"
+         2 "No")
+
+CHOICE=$(dialog --clear \
+                --backtitle "$BACKTITLE" \
+                --title "$TITLE" \
+                --menu "$MENU" \
+                $HEIGHT $WIDTH $CHOICE_HEIGHT \
+                "${OPTIONS[@]}" \
+                2>&1 >/dev/tty)
+
+clear
+case $CHOICE in
+        1)
+			#!/bin/bash
+echo -e "\e[40;38;5;82m Removeing old files \e[30;48;5;82m\e[0m"
+rm -rf rtl8812au
+echo -e "\e[40;38;5;82m Downloading driver \e[30;48;5;82m\e[0m"
+git clone https://github.com/gordboy/rtl8812au.git
+echo -e "\e[40;38;5;82m Done :) \e[30;48;5;82m \e[0m"
+
+            ;;
+        2)
+			#!/bin/bash
+echo -e "\e[40;38;5;82m Removeing old files \e[30;48;5;82m\e[0m"
+rm -rf rtl8812au
+echo -e "\e[40;38;5;82m Alright :) \e[30;48;5;82m\e[0m"
+	    
+esac
 
 
             ;;
@@ -66,6 +104,44 @@ echo -e "\e[40;38;5;82m Installing driver \e[30;48;5;82m\e[0m"
 sudo make install
 sudo modprobe 8812au
 echo -e "\e[40;38;5;82m Done :) \e[30;48;5;82m You can now use your wifi adapter! \e[0m"
+read -p "Press enter to continue"
+#!/bin/bash
+HEIGHT=15
+WIDTH=40
+CHOICE_HEIGHT=2
+BACKTITLE="RTL8812au-Installer"
+TITLE="Reinstall after kernel update"
+MENU="Should this installer leave files for a reinstallation after a kernel update?:"
+
+OPTIONS=(1 "Yes"
+         2 "No")
+
+CHOICE=$(dialog --clear \
+                --backtitle "$BACKTITLE" \
+                --title "$TITLE" \
+                --menu "$MENU" \
+                $HEIGHT $WIDTH $CHOICE_HEIGHT \
+                "${OPTIONS[@]}" \
+                2>&1 >/dev/tty)
+
+clear
+case $CHOICE in
+        1)
+			#!/bin/bash
+echo -e "\e[40;38;5;82m Removeing old files \e[30;48;5;82m\e[0m"
+rm -rf rtl8812au
+echo -e "\e[40;38;5;82m Downloading driver \e[30;48;5;82m\e[0m"
+git clone https://github.com/gordboy/rtl8812au.git
+echo -e "\e[40;38;5;82m Done :) \e[30;48;5;82m \e[0m"
+
+            ;;
+        2)
+			#!/bin/bash
+echo -e "\e[40;38;5;82m Removeing old files \e[30;48;5;82m\e[0m"
+rm -rf rtl8812au
+echo -e "\e[40;38;5;82m Alright :) \e[30;48;5;82m\e[0m"
+	    
+esac
 
 
             ;;
@@ -109,6 +185,44 @@ echo -e "\e[40;38;5;82m Installing driver \e[30;48;5;82m\e[0m"
 sudo make install
 sudo modprobe 8812au
 echo -e "\e[40;38;5;82m Done :) \e[30;48;5;82m You can now use your wifi adapter! \e[0m"
+read -p "Press enter to continue"
+#!/bin/bash
+HEIGHT=15
+WIDTH=40
+CHOICE_HEIGHT=2
+BACKTITLE="RTL8812au-Installer"
+TITLE="Reinstall after kernel update"
+MENU="Should this installer leave files for a reinstallation after a kernel update?:"
+
+OPTIONS=(1 "Yes"
+         2 "No")
+
+CHOICE=$(dialog --clear \
+                --backtitle "$BACKTITLE" \
+                --title "$TITLE" \
+                --menu "$MENU" \
+                $HEIGHT $WIDTH $CHOICE_HEIGHT \
+                "${OPTIONS[@]}" \
+                2>&1 >/dev/tty)
+
+clear
+case $CHOICE in
+        1)
+			#!/bin/bash
+echo -e "\e[40;38;5;82m Removeing old files \e[30;48;5;82m\e[0m"
+rm -rf rtl8812au
+echo -e "\e[40;38;5;82m Downloading driver \e[30;48;5;82m\e[0m"
+git clone https://github.com/gordboy/rtl8812au.git
+echo -e "\e[40;38;5;82m Done :) \e[30;48;5;82m \e[0m"
+
+            ;;
+        2)
+			#!/bin/bash
+echo -e "\e[40;38;5;82m Removeing old files \e[30;48;5;82m\e[0m"
+rm -rf rtl8812au
+echo -e "\e[40;38;5;82m Alright :) \e[30;48;5;82m\e[0m"
+	    
+esac
 
             ;;
         2)
@@ -125,6 +239,44 @@ echo -e "\e[40;38;5;82m Installing driver \e[30;48;5;82m\e[0m"
 sudo make install
 sudo modprobe 8812au
 echo -e "\e[40;38;5;82m Done :) \e[30;48;5;82m You can now use your wifi adapter! \e[0m"
+read -p "Press enter to continue"
+#!/bin/bash
+HEIGHT=15
+WIDTH=40
+CHOICE_HEIGHT=2
+BACKTITLE="RTL8812au-Installer"
+TITLE="Reinstall after kernel update"
+MENU="Should this installer leave files for a reinstallation after a kernel update?:"
+
+OPTIONS=(1 "Yes"
+         2 "No")
+
+CHOICE=$(dialog --clear \
+                --backtitle "$BACKTITLE" \
+                --title "$TITLE" \
+                --menu "$MENU" \
+                $HEIGHT $WIDTH $CHOICE_HEIGHT \
+                "${OPTIONS[@]}" \
+                2>&1 >/dev/tty)
+
+clear
+case $CHOICE in
+        1)
+			#!/bin/bash
+echo -e "\e[40;38;5;82m Removeing old files \e[30;48;5;82m\e[0m"
+rm -rf rtl8812au
+echo -e "\e[40;38;5;82m Downloading driver \e[30;48;5;82m\e[0m"
+git clone https://github.com/gordboy/rtl8812au.git
+echo -e "\e[40;38;5;82m Done :) \e[30;48;5;82m \e[0m"
+
+            ;;
+        2)
+			#!/bin/bash
+echo -e "\e[40;38;5;82m Removeing old files \e[30;48;5;82m\e[0m"
+rm -rf rtl8812au
+echo -e "\e[40;38;5;82m Alright :) \e[30;48;5;82m\e[0m"
+	    
+esac
 
             ;;
         3)
@@ -141,6 +293,44 @@ echo -e "\e[40;38;5;82m Installing driver \e[30;48;5;82m\e[0m"
 sudo make install
 sudo modprobe 8812au
 echo -e "\e[40;38;5;82m Done :) \e[30;48;5;82m You can now use your wifi adapter! \e[0m"
+read -p "Press enter to continue"
+#!/bin/bash
+HEIGHT=15
+WIDTH=40
+CHOICE_HEIGHT=2
+BACKTITLE="RTL8812au-Installer"
+TITLE="Reinstall after kernel update"
+MENU="Should this installer leave files for a reinstallation after a kernel update?:"
+
+OPTIONS=(1 "Yes"
+         2 "No")
+
+CHOICE=$(dialog --clear \
+                --backtitle "$BACKTITLE" \
+                --title "$TITLE" \
+                --menu "$MENU" \
+                $HEIGHT $WIDTH $CHOICE_HEIGHT \
+                "${OPTIONS[@]}" \
+                2>&1 >/dev/tty)
+
+clear
+case $CHOICE in
+        1)
+			#!/bin/bash
+echo -e "\e[40;38;5;82m Removeing old files \e[30;48;5;82m\e[0m"
+rm -rf rtl8812au
+echo -e "\e[40;38;5;82m Downloading driver \e[30;48;5;82m\e[0m"
+git clone https://github.com/gordboy/rtl8812au.git
+echo -e "\e[40;38;5;82m Done :) \e[30;48;5;82m \e[0m"
+
+            ;;
+        2)
+			#!/bin/bash
+echo -e "\e[40;38;5;82m Removeing old files \e[30;48;5;82m\e[0m"
+rm -rf rtl8812au
+echo -e "\e[40;38;5;82m Alright :) \e[30;48;5;82m\e[0m"
+	    
+esac
 
             ;;
         4)
@@ -157,6 +347,44 @@ echo -e "\e[40;38;5;82m Installing driver \e[30;48;5;82m\e[0m"
 sudo make install
 sudo modprobe 8812au
 echo -e "\e[40;38;5;82m Done :) \e[30;48;5;82m You can now use your wifi adapter! \e[0m"
+read -p "Press enter to continue"
+#!/bin/bash
+HEIGHT=15
+WIDTH=40
+CHOICE_HEIGHT=2
+BACKTITLE="RTL8812au-Installer"
+TITLE="Reinstall after kernel update"
+MENU="Should this installer leave files for a reinstallation after a kernel update?:"
+
+OPTIONS=(1 "Yes"
+         2 "No")
+
+CHOICE=$(dialog --clear \
+                --backtitle "$BACKTITLE" \
+                --title "$TITLE" \
+                --menu "$MENU" \
+                $HEIGHT $WIDTH $CHOICE_HEIGHT \
+                "${OPTIONS[@]}" \
+                2>&1 >/dev/tty)
+
+clear
+case $CHOICE in
+        1)
+			#!/bin/bash
+echo -e "\e[40;38;5;82m Removeing old files \e[30;48;5;82m\e[0m"
+rm -rf rtl8812au
+echo -e "\e[40;38;5;82m Downloading driver \e[30;48;5;82m\e[0m"
+git clone https://github.com/gordboy/rtl8812au.git
+echo -e "\e[40;38;5;82m Done :) \e[30;48;5;82m \e[0m"
+
+            ;;
+        2)
+			#!/bin/bash
+echo -e "\e[40;38;5;82m Removeing old files \e[30;48;5;82m\e[0m"
+rm -rf rtl8812au
+echo -e "\e[40;38;5;82m Alright :) \e[30;48;5;82m\e[0m"
+	    
+esac
 
             ;;
 	5)
@@ -173,6 +401,44 @@ echo -e "\e[40;38;5;82m Installing driver \e[30;48;5;82m\e[0m"
 sudo make install
 sudo modprobe 8812au
 echo -e "\e[40;38;5;82m Done :) \e[30;48;5;82m You can now use your wifi adapter! \e[0m"
+read -p "Press enter to continue"
+#!/bin/bash
+HEIGHT=15
+WIDTH=40
+CHOICE_HEIGHT=2
+BACKTITLE="RTL8812au-Installer"
+TITLE="Reinstall after kernel update"
+MENU="Should this installer leave files for a reinstallation after a kernel update?:"
+
+OPTIONS=(1 "Yes"
+         2 "No")
+
+CHOICE=$(dialog --clear \
+                --backtitle "$BACKTITLE" \
+                --title "$TITLE" \
+                --menu "$MENU" \
+                $HEIGHT $WIDTH $CHOICE_HEIGHT \
+                "${OPTIONS[@]}" \
+                2>&1 >/dev/tty)
+
+clear
+case $CHOICE in
+        1)
+			#!/bin/bash
+echo -e "\e[40;38;5;82m Removeing old files \e[30;48;5;82m\e[0m"
+rm -rf rtl8812au
+echo -e "\e[40;38;5;82m Downloading driver \e[30;48;5;82m\e[0m"
+git clone https://github.com/gordboy/rtl8812au.git
+echo -e "\e[40;38;5;82m Done :) \e[30;48;5;82m \e[0m"
+
+            ;;
+        2)
+			#!/bin/bash
+echo -e "\e[40;38;5;82m Removeing old files \e[30;48;5;82m\e[0m"
+rm -rf rtl8812au
+echo -e "\e[40;38;5;82m Alright :) \e[30;48;5;82m\e[0m"
+	    
+esac
 
             ;;
 	6)
@@ -208,8 +474,6 @@ echo -e "\e[40;38;5;82m Done :) \e[30;48;5;82m Done! \e[0m"
             ;;
 	6)
 			#!/bin/bash
-echo -e "\e[40;38;5;82m Downloading driver \e[30;48;5;82m\e[0m"
-git clone https://github.com/gordboy/rtl8812au.git
 cd rtl8812au
 echo -e "\e[40;38;5;82m Building driver \e[30;48;5;82m\e[0m"
 make
@@ -217,5 +481,42 @@ echo -e "\e[40;38;5;82m Installing driver \e[30;48;5;82m\e[0m"
 sudo make install
 sudo modprobe 8812au
 echo -e "\e[40;38;5;82m Done :) \e[30;48;5;82m You can now use your wifi adapter again! \e[0m"
-esac
+read -p "Press enter to continue"
+#!/bin/bash
+HEIGHT=15
+WIDTH=40
+CHOICE_HEIGHT=2
+BACKTITLE="RTL8812au-Installer"
+TITLE="Reinstall after kernel update"
+MENU="Should this installer leave files for a reinstallation after a kernel update?:"
 
+OPTIONS=(1 "Yes"
+         2 "No")
+
+CHOICE=$(dialog --clear \
+                --backtitle "$BACKTITLE" \
+                --title "$TITLE" \
+                --menu "$MENU" \
+                $HEIGHT $WIDTH $CHOICE_HEIGHT \
+                "${OPTIONS[@]}" \
+                2>&1 >/dev/tty)
+
+clear
+case $CHOICE in
+        1)
+			#!/bin/bash
+echo -e "\e[40;38;5;82m Removeing old files \e[30;48;5;82m\e[0m"
+rm -rf rtl8812au
+echo -e "\e[40;38;5;82m Downloading driver \e[30;48;5;82m\e[0m"
+git clone https://github.com/gordboy/rtl8812au.git
+echo -e "\e[40;38;5;82m Done :) \e[30;48;5;82m \e[0m"
+
+            ;;
+        2)
+			#!/bin/bash
+echo -e "\e[40;38;5;82m Removeing old files \e[30;48;5;82m\e[0m"
+rm -rf rtl8812au
+echo -e "\e[40;38;5;82m Alright :) \e[30;48;5;82m\e[0m"
+	    
+esac
+esac
