@@ -3,12 +3,20 @@ Should you have a problem during installation or general with the driver then le
 
 Currently, the installer use the repository of "[gordboy](https://github.com/gordboy/rtl8812au)"
 
+# Features
+
+- The driver will be installed automatically with all required dependencies.
+- Offline installation : Install your driver again if you lose your connection after a kernel update.
+
+# Supported distributions
+
+- Arch/Manjaro/Antergos
+- Solus
+- Ubuntu
+- Sabayon
+
 # Preparations
-Before you start installing the WiFi driver, make sure you have all the updates installed. If you have previously installed an update. Restart your computer to avoid errors during installation.
-
-# Dependencies
-
-- Dialog
+Before you start installing the WiFi driver, make sure you have all the updates & the package "dialog installed. If you have previously installed a kernel update, restart your computer to avoid errors during installation.
 
 # Installation
 
