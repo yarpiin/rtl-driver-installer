@@ -20,23 +20,18 @@ Before you start installing the WiFi driver, make sure you have all the updates 
 
 # Installation
 
-Very simple :)
+To start this Installer use the follwing command in the folder:
 ```
-git clone https://github.com/Alexander88207/RTL8812au-Installer.git
-cd RTL8812au-Installer
 bash Installer.sh
 ```
 ![](https://github.com/Alexander88207/RTL8812au-Installer/raw/master/Screenshot3.png)
 
 # Uninstallation
 
-Very simple too :)
+Simply select the menu item "uninstall".
 
 ![](https://github.com/Alexander88207/RTL8812au-Installer/raw/master/Screenshot2.png)
 
-
-
-After that restart your computer!
 # Tested devices
 - <a href="http://www.netis-systems.com/Home/detail/id/96.html">Netis WF2190 AC1200 Wireless Dual Band USB Adapter</a>
 - <a href="https://www.tp-link.com/at/products/details/cat-11_Archer-T4U.html">TP Link Archer T4U AC1200 Dual Band USB Adapter</a>
