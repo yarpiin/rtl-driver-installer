@@ -2,7 +2,7 @@
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=6
-BACKTITLE="RTL8812au-Installer"
+BACKTITLE="RTL8812au-Installer 1.0.9"
 TITLE="Distro Selector"
 MENU="Choose one of the following distro's:"
 
