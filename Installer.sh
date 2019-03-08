@@ -73,8 +73,9 @@ clear
 case $CHOICE in
         1)
 			#!/bin/bash
+sudo su
 echo -e "\e[40;38;5;82m Removeing old files \e[30;48;5;82m\e[0m"
-sudo rm -rf rtl8812au
+rm -rf rtl8812au
 echo -e "\e[40;38;5;82m Downloading driver \e[30;48;5;82m\e[0m"
 git clone https://github.com/gordboy/rtl8812au.git
 echo -e "\e[40;38;5;82m Done :) \e[30;48;5;82m \e[0m"
@@ -82,8 +83,9 @@ echo -e "\e[40;38;5;82m Done :) \e[30;48;5;82m \e[0m"
             ;;
         2)
 			#!/bin/bash
+sudo su
 echo -e "\e[40;38;5;82m Removeing old files \e[30;48;5;82m\e[0m"
-sudo rm -rf rtl8812au
+rm -rf rtl8812au
 echo -e "\e[40;38;5;82m Alright :) \e[30;48;5;82m\e[0m"
 	    
 esac
@@ -128,8 +130,9 @@ clear
 case $CHOICE in
         1)
 			#!/bin/bash
+sudo su
 echo -e "\e[40;38;5;82m Removeing old files \e[30;48;5;82m\e[0m"
-sudo rm -rf rtl8812au
+rm -rf rtl8812au
 echo -e "\e[40;38;5;82m Downloading driver \e[30;48;5;82m\e[0m"
 git clone https://github.com/gordboy/rtl8812au.git
 echo -e "\e[40;38;5;82m Done :) \e[30;48;5;82m \e[0m"
@@ -137,8 +140,9 @@ echo -e "\e[40;38;5;82m Done :) \e[30;48;5;82m \e[0m"
             ;;
         2)
 			#!/bin/bash
+sudo su
 echo -e "\e[40;38;5;82m Removeing old files \e[30;48;5;82m\e[0m"
-sudo rm -rf rtl8812au
+rm -rf rtl8812au
 echo -e "\e[40;38;5;82m Alright :) \e[30;48;5;82m\e[0m"
 	    
 esac
@@ -209,8 +213,9 @@ clear
 case $CHOICE in
         1)
 			#!/bin/bash
+sudo su
 echo -e "\e[40;38;5;82m Removeing old files \e[30;48;5;82m\e[0m"
-sudo rm -rf rtl8812au
+rm -rf rtl8812au
 echo -e "\e[40;38;5;82m Downloading driver \e[30;48;5;82m\e[0m"
 git clone https://github.com/gordboy/rtl8812au.git
 echo -e "\e[40;38;5;82m Done :) \e[30;48;5;82m \e[0m"
@@ -218,8 +223,9 @@ echo -e "\e[40;38;5;82m Done :) \e[30;48;5;82m \e[0m"
             ;;
         2)
 			#!/bin/bash
+sudo su
 echo -e "\e[40;38;5;82m Removeing old files \e[30;48;5;82m\e[0m"
-sudo rm -rf rtl8812au
+rm -rf rtl8812au
 echo -e "\e[40;38;5;82m Alright :) \e[30;48;5;82m\e[0m"
 	    
 esac
@@ -263,8 +269,9 @@ clear
 case $CHOICE in
         1)
 			#!/bin/bash
+sudo su
 echo -e "\e[40;38;5;82m Removeing old files \e[30;48;5;82m\e[0m"
-sudo rm -rf rtl8812au
+rm -rf rtl8812au
 echo -e "\e[40;38;5;82m Downloading driver \e[30;48;5;82m\e[0m"
 git clone https://github.com/gordboy/rtl8812au.git
 echo -e "\e[40;38;5;82m Done :) \e[30;48;5;82m \e[0m"
@@ -272,8 +279,9 @@ echo -e "\e[40;38;5;82m Done :) \e[30;48;5;82m \e[0m"
             ;;
         2)
 			#!/bin/bash
+sudo su
 echo -e "\e[40;38;5;82m Removeing old files \e[30;48;5;82m\e[0m"
-sudo rm -rf rtl8812au
+rm -rf rtl8812au
 echo -e "\e[40;38;5;82m Alright :) \e[30;48;5;82m\e[0m"
 	    
 esac
@@ -371,6 +379,7 @@ clear
 case $CHOICE in
         1)
 			#!/bin/bash
+sudo su
 echo -e "\e[40;38;5;82m Removeing old files \e[30;48;5;82m\e[0m"
 sudo rm -rf rtl8812au
 echo -e "\e[40;38;5;82m Downloading driver \e[30;48;5;82m\e[0m"
@@ -380,8 +389,9 @@ echo -e "\e[40;38;5;82m Done :) \e[30;48;5;82m \e[0m"
             ;;
         2)
 			#!/bin/bash
+sudo su
 echo -e "\e[40;38;5;82m Removeing old files \e[30;48;5;82m\e[0m"
-sudo rm -rf rtl8812au
+rm -rf rtl8812au
 echo -e "\e[40;38;5;82m Alright :) \e[30;48;5;82m\e[0m"
 	    
 esac
@@ -434,8 +444,9 @@ echo -e "\e[40;38;5;82m Done :) \e[30;48;5;82m \e[0m"
             ;;
         2)
 			#!/bin/bash
+sudo su
 echo -e "\e[40;38;5;82m Removeing old files \e[30;48;5;82m\e[0m"
-sudo rm -rf rtl8812au
+rm -rf rtl8812au
 echo -e "\e[40;38;5;82m Alright :) \e[30;48;5;82m\e[0m"
 	    
 esac
@@ -479,6 +490,7 @@ clear
 case $CHOICE in
         1)
 			#!/bin/bash
+sudo su
 echo -e "\e[40;38;5;82m Removeing old files \e[30;48;5;82m\e[0m"
 sudo rm -rf rtl8812au
 echo -e "\e[40;38;5;82m Downloading driver \e[30;48;5;82m\e[0m"
@@ -488,8 +500,9 @@ echo -e "\e[40;38;5;82m Done :) \e[30;48;5;82m \e[0m"
             ;;
         2)
 			#!/bin/bash
+sudo su
 echo -e "\e[40;38;5;82m Removeing old files \e[30;48;5;82m\e[0m"
-sudo rm -rf rtl8812au
+rm -rf rtl8812au
 echo -e "\e[40;38;5;82m Alright :) \e[30;48;5;82m\e[0m"
 	    
 esac
@@ -543,8 +556,9 @@ clear
 case $CHOICE in
         1)
 			#!/bin/bash
+sudo su
 echo -e "\e[40;38;5;82m Removeing old files \e[30;48;5;82m\e[0m"
-sudo rm -rf rtl8812au
+rm -rf rtl8812au
 echo -e "\e[40;38;5;82m Downloading driver \e[30;48;5;82m\e[0m"
 git clone https://github.com/gordboy/rtl8812au.git
 echo -e "\e[40;38;5;82m Done :) \e[30;48;5;82m \e[0m"
@@ -552,8 +566,9 @@ echo -e "\e[40;38;5;82m Done :) \e[30;48;5;82m \e[0m"
             ;;
         2)
 			#!/bin/bash
+sudo su
 echo -e "\e[40;38;5;82m Removeing old files \e[30;48;5;82m\e[0m"
-sudo rm -rf rtl8812au
+rm -rf rtl8812au
 echo -e "\e[40;38;5;82m Alright :) \e[30;48;5;82m\e[0m"
 	    
 esac
