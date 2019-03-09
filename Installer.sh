@@ -38,14 +38,37 @@ echo -e "\e[40;38;5;82m Done :) \e[30;48;5;82m You can now use your wifi adapter
 			#!/bin/bash
 echo -e "\e[40;38;5;82m Installing dependencies \e[30;48;5;82m\e[0m"
 sudo eopkg it -c system.devel
-sudo eopkg it linux-current-headers
 sudo eopkg it libelf-devel
+#!/bin/bash
+HEIGHT=15
+WIDTH=40
+CHOICE_HEIGHT=2
+BACKTITLE="RTL8812au-Installer 1.0.9"
+TITLE="Question about solus kernel"
+MENU="Do you use the Current or the LTS kernel?:"
+
+OPTIONS=(1 "Current"
+         2 "LTS")
+
+CHOICE=$(dialog --clear \
+                --backtitle "$BACKTITLE" \
+                --title "$TITLE" \
+                --menu "$MENU" \
+                $HEIGHT $WIDTH $CHOICE_HEIGHT \
+                "${OPTIONS[@]}" \
+                2>&1 >/dev/tty)
+
+clear
+case $CHOICE in
+        1)
+			#!/bin/bash
+sudo eopkg it linux-current-headers
 echo -e "\e[40;38;5;82m Downloading driver \e[30;48;5;82m\e[0m"
 git clone https://github.com/gordboy/rtl8812au.git
 cd rtl8812au
 echo -e "\e[40;38;5;82m Building driver \e[30;48;5;82m\e[0m"
 make
-cho -e "\e[40;38;5;82m Installing driver \e[30;48;5;82m\e[0m"
+echo -e "\e[40;38;5;82m Installing driver \e[30;48;5;82m\e[0m"
 sudo make install
 sudo modprobe 8812au
 echo -e "\e[40;38;5;82m Done :) \e[30;48;5;82m You can now use your wifi adapter! \e[0m"
@@ -54,7 +77,60 @@ read -p "Press enter to continue"
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=2
-BACKTITLE="RTL8812au-Installer"
+BACKTITLE="RTL8812au-Installer 1.0.9"
+TITLE="Reinstall after kernel update"
+MENU="Should this installer leave files for a reinstallation after a kernel update?:"
+
+OPTIONS=(1 "Yes"
+         2 "No")
+
+CHOICE=$(dialog --clear \
+                --backtitle "$BACKTITLE" \
+                --title "$TITLE" \
+                --menu "$MENU" \
+                $HEIGHT $WIDTH $CHOICE_HEIGHT \
+                "${OPTIONS[@]}" \
+                2>&1 >/dev/tty)
+
+clear
+case $CHOICE in
+        1)
+			#!/bin/bash
+sudo su
+echo -e "\e[40;38;5;82m Removeing old files \e[30;48;5;82m\e[0m"
+rm -rf rtl8812au
+echo -e "\e[40;38;5;82m Downloading driver \e[30;48;5;82m\e[0m"
+git clone https://github.com/gordboy/rtl8812au.git
+echo -e "\e[40;38;5;82m Done :) \e[30;48;5;82m \e[0m"
+
+            ;;
+        2)
+			#!/bin/bash
+sudo su
+echo -e "\e[40;38;5;82m Removeing old files \e[30;48;5;82m\e[0m"
+rm -rf rtl8812au
+echo -e "\e[40;38;5;82m Alright :) \e[30;48;5;82m\e[0m"
+	    
+esac
+            ;;
+        2)
+			#!/bin/bash
+sudo eopkg it linux-lts-headers
+echo -e "\e[40;38;5;82m Downloading driver \e[30;48;5;82m\e[0m"
+git clone https://github.com/gordboy/rtl8812au.git
+cd rtl8812au
+echo -e "\e[40;38;5;82m Building driver \e[30;48;5;82m\e[0m"
+make
+echo -e "\e[40;38;5;82m Installing driver \e[30;48;5;82m\e[0m"
+sudo make install
+sudo modprobe 8812au
+echo -e "\e[40;38;5;82m Done :) \e[30;48;5;82m You can now use your wifi adapter! \e[0m"
+read -p "Press enter to continue"
+#!/bin/bash
+HEIGHT=15
+WIDTH=40
+CHOICE_HEIGHT=2
+BACKTITLE="RTL8812au-Installer 1.0.9"
 TITLE="Reinstall after kernel update"
 MENU="Should this installer leave files for a reinstallation after a kernel update?:"
 
@@ -154,7 +230,7 @@ esac
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=6
-BACKTITLE="RTL8812au-Installer"
+BACKTITLE="RTL8812au-Installer 1.0.9"
 TITLE="Sabayon sources installation"
 MENU="Choose your kernel version of sabayon:"
 
@@ -194,7 +270,7 @@ read -p "Press enter to continue"
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=2
-BACKTITLE="RTL8812au-Installer"
+BACKTITLE="RTL8812au-Installer 1.0.9"
 TITLE="Reinstall after kernel update"
 MENU="Should this installer leave files for a reinstallation after a kernel update?:"
 
@@ -539,7 +615,7 @@ read -p "Press enter to continue"
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=2
-BACKTITLE="RTL8812au-Installer"
+BACKTITLE="RTL8812au-Installer 1.0.9"
 TITLE="Reinstall after kernel update"
 MENU="Should this installer leave files for a reinstallation after a kernel update?:"
 
