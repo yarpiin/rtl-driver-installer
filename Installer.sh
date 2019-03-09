@@ -4,7 +4,7 @@ WIDTH=40
 CHOICE_HEIGHT=6
 BACKTITLE="RTL8812au-Installer 1.0.9"
 TITLE="Distro Selector"
-MENU="Choose one of the following distros or options:"
+MENU="Hello $USER :) Choose one of the following distros or options:"
 
 OPTIONS=(1 "Arch/Manjaro/Antergos"
          2 "Solus"
