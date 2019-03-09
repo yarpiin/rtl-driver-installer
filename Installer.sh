@@ -651,3 +651,4 @@ echo -e "\e[40;38;5;82m Alright :) \e[30;48;5;82m\e[0m"
 	    
 esac
 esac
+esac
