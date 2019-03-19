@@ -41,8 +41,7 @@ echo -e "\e[40;38;5;82m Done :) \e[30;48;5;82m You can now use your wifi adapter
         2)
 			#!/bin/bash
 echo -e "\e[40;38;5;82m Installing dependencies \e[30;48;5;82m\e[0m"
-sudo eopkg it -c system.devel
-sudo eopkg it libelf-devel
+sudo eopkg it gcc binutils git make
 #!/bin/bash
 HEIGHT=15
 WIDTH=40
