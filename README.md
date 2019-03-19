@@ -16,7 +16,7 @@ Currently, the installer use the repository of "[gordboy](https://github.com/gor
 - Sabayon
 
 # Preparations
-Before you start installing the WiFi driver, make sure you have all the updates & the package "dialog" installed. If you have previously installed a kernel update, restart your computer to avoid errors during installation.
+Before you start installing the WiFi driver, make sure you have all the updates installed. If you have previously installed a kernel update, restart your computer to avoid errors during installation.
 
 # Installation
 
