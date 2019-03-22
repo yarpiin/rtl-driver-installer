@@ -18,7 +18,7 @@ Currently, the installer use the repository of "[gordboy](https://github.com/gor
 # Preparations
 Before you start installing the WiFi driver, make sure you have all the updates installed. If you have previously installed a kernel update, restart your computer to avoid errors during installation.
 
-# Installation
+# Installation/Uninstall
 
 Download the latest release from [here](https://github.com/Alexander88207/RTL8812au-Installer/releases)
 
@@ -26,13 +26,9 @@ To start this installer use the follwing command in the folder:
 ```
 bash Installer.sh
 ```
-![](https://github.com/Alexander88207/RTL8812au-Installer/raw/master/Screenshot3.png)
+![](https://www.bilder-upload.eu/upload/08fede-1553274259.png)
 
-# Uninstallation
-
-Simply select the menu item "uninstall".
-
-![](https://github.com/Alexander88207/RTL8812au-Installer/raw/master/Screenshot2.png)
+To uninstall this driver select "uninstall"
 
 # Tested devices
 - <a href="http://www.netis-systems.com/Home/detail/id/96.html">Netis WF2190 AC1200 Wireless Dual Band USB Adapter</a>
