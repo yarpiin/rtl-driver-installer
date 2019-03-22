@@ -18,7 +18,7 @@ Currently, the installer use the repository of "[gordboy](https://github.com/gor
 # Preparations
 Before you start installing the WiFi driver, make sure you have all the updates installed. If you have previously installed a kernel update, restart your computer to avoid errors during installation.
 
-# Installation/Uninstall
+# Installation/Uninstallation
 
 Download the latest release from [here](https://github.com/Alexander88207/RTL8812au-Installer/releases)
 
