@@ -1,7 +1,8 @@
 #/bin/bash
 echo -e "\e[40;38;5;82m Installing dependencies to run this script \e[30;48;5;82m\e[0m"
-sudo eopkg it dialog
-sudo apt install dialog
+sudo eopkg it dialog git
+sudo apt install dialog git
+sudo equo i git --ask
 #/bin/bash
 HEIGHT=15
 WIDTH=40
