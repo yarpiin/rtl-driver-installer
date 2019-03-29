@@ -37,7 +37,6 @@ cd rtl8812au-dkms-git
 echo -e "\e[40;38;5;82m Driver will be built & installed \e[30;48;5;82m\e[0m"
 makepkg -i
 echo -e "\e[40;38;5;82m Done :) \e[30;48;5;82m You can now use your wifi adapter! \e[0m"
-esac
             ;;
         2)
 			#!/bin/bash
