@@ -247,7 +247,8 @@ OPTIONS=(1 "4.4"
          3 "4.14"
          4 "4.18"
 	 5 "4.19"
-	 6 "4.20")
+	 6 "4.20"
+	 7 "5.0")
 
 CHOICE=$(dialog --clear \
                 --backtitle "$BACKTITLE" \
@@ -555,7 +556,21 @@ echo -e "\e[40;38;5;82m Alright :) \e[30;48;5;82m\e[0m"
 esac
 
             ;;
-	    
+	7)
+			#!/bin/bash
+echo -e "\e[40;38;5;82m Installing dependencies \e[30;48;5;82m\e[0m"
+sudo equo install gcc --ask
+sudo equo i sys-kernel/sabayon-sources:5.0.5 --ask
+echo -e "\e[40;38;5;82m Downloading driver \e[30;48;5;82m\e[0m"
+git clone https://github.com/gordboy/rtl8812au.git
+cd rtl8812au
+echo -e "\e[40;38;5;82m Building driver \e[30;48;5;82m\e[0m"
+make
+echo -e "\e[40;38;5;82m Installing driver \e[30;48;5;82m\e[0m"
+sudo make install
+sudo modprobe 8812au
+echo -e "\e[40;38;5;82m Done :) \e[30;48;5;82m You can now use your wifi adapter! \e[0m"
+
 esac
 
 
