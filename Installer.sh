@@ -248,7 +248,7 @@ OPTIONS=(1 "4.4"
          4 "4.18"
 	 5 "4.19"
 	 6 "4.20"
-	 7 "5.0")
+	 7 "5.0.5")
 
 CHOICE=$(dialog --clear \
                 --backtitle "$BACKTITLE" \
