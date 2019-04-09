@@ -30,12 +30,6 @@ bash Installer.sh
 
 To uninstall this driver select "uninstall"
 
-# Tested devices
-- <a href="http://www.netis-systems.com/Home/detail/id/96.html">Netis WF2190 AC1200 Wireless Dual Band USB Adapter</a>
-- <a href="https://www.tp-link.com/at/products/details/cat-11_Archer-T4U.html">TP Link Archer T4U AC1200 Dual Band USB Adapter</a>
-
- If your device works but its not in this list submit a pull request  <a href="https://github.com/Alexander88207/RTL8812au-Installer/pulls">here</a>
-
 # FAQ
 
 - Why i have package loss or bad ms? for example like this https://pastebin.com/sH9T1NaD
