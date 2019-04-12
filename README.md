@@ -15,6 +15,12 @@ Currently, the installer use the repository of "[gordboy](https://github.com/gor
 - Ubuntu
 - Sabayon
 
+# Supported realtek wifi adapters
+
+- RTL8812au
+- RTL8188eu, RTL8188eus and RTL8188etv (soon)
+- RTL8821CE
+
 # Preparations
 Before you start installing the WiFi driver, make sure you have all the updates installed. If you have previously installed a kernel update, restart your computer to avoid errors during installation.
 
