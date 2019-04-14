@@ -14,6 +14,7 @@ Currently, the installer use the repository of "[gordboy](https://github.com/gor
 - Solus
 - Ubuntu
 - Sabayon
+- OpenSUSE
 
 # Preparations
 Before you start installing the WiFi driver, make sure you have all the updates installed. If you have previously installed a kernel update, restart your computer to avoid errors during installation.
