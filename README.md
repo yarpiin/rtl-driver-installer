@@ -14,6 +14,7 @@ Currently, the installer use the repository of "[gordboy](https://github.com/gor
 - Solus
 - Ubuntu
 - Sabayon
+- OpenSUSE
 
 # Supported realtek wifi adapters
 
