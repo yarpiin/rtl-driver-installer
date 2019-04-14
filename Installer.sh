@@ -1,4 +1,5 @@
 #/bin/bash
+read -p "Please note that this installer will be soon named RTL-Installer!"
 echo -e "\e[40;38;5;82m Installing dependencies to run this script \e[30;48;5;82m\e[0m"
 sudo eopkg it dialog
 sudo apt install dialog
