@@ -600,7 +600,7 @@ esac
 			#!/bin/bash
 echo -e "\e[40;38;5;82m Installing dependencies \e[30;48;5;82m\e[0m"
 sudo equo install gcc --ask
-sudo equo i sys-kernel/sabayon-sources:5.05 --ask
+sudo equo i sys-kernel/sabayon-sources:5.0.5 --ask
 echo -e "\e[40;38;5;82m Downloading driver \e[30;48;5;82m\e[0m"
 git clone https://github.com/gordboy/rtl8812au.git
 cd rtl8812au
