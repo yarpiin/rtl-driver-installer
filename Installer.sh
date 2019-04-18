@@ -660,7 +660,7 @@ esac
         5)
 			#!/bin/bash
 echo -e "\e[40;38;5;82m Installing dependencies \e[30;48;5;82m\e[0m"
-sudo zypper make kernel-source
+sudo zypper install make kernel-source
 echo -e "\e[40;38;5;82m Downloading driver \e[30;48;5;82m\e[0m"
 git clone https://github.com/gordboy/rtl8812au.git
 cd rtl8812au
