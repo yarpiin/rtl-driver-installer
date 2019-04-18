@@ -2,8 +2,6 @@
 
 Should you have a problem during installation or general with the driver then let me know :)
 
-Currently, the installer use the repository of "[gordboy](https://github.com/gordboy/rtl8812au)"
-
 # Features
 
 - The driver will be installed automatically with all required dependencies.
@@ -19,7 +17,7 @@ Currently, the installer use the repository of "[gordboy](https://github.com/gor
 
 # Supported realtek wifi adapters
 
-- RTL8812au
+- RTL8812au by [gordboy](https://github.com/gordboy/rtl8812au)
 - RTL8188eu, RTL8188eus and RTL8188etv (soon)
 - RTL8821CE (soon)
 
