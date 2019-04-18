@@ -32,7 +32,7 @@ To start this installer use the follwing command in the folder:
 ```
 bash Installer.sh
 ```
-![](https://www.bilder-upload.eu/upload/08fede-1553274259.png)
+![](https://www.bilder-upload.eu/upload/825e72-1555589358.png)
 
 To uninstall this driver select "uninstall"
 
