@@ -2,12 +2,35 @@
 echo -e "\e[40;38;5;82m Installing dependencies to run this script \e[30;48;5;82m\e[0m"
 sudo eopkg it dialog
 sudo apt install dialog
-#/bin/bash
+#!/bin/bash
+HEIGHT=15
+WIDTH=40
+CHOICE_HEIGHT=3
+BACKTITLE="RTL8812au-Installer 1.2"
+TITLE="Welcome $USER :)"
+MENU="What driver do you want to install?:"
+
+OPTIONS=(1 "RTL8812au"
+         2 "RTL8188eu, RTL8188eus & RTL8188etv"
+         3 "RTL8821CE")
+
+CHOICE=$(dialog --clear \
+                --backtitle "$BACKTITLE" \
+                --title "$TITLE" \
+                --menu "$MENU" \
+                $HEIGHT $WIDTH $CHOICE_HEIGHT \
+                "${OPTIONS[@]}" \
+                2>&1 >/dev/tty)
+
+clear
+case $CHOICE in
+        1)
+			#!/bin/bash
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=7
 BACKTITLE="RTL8812au-Installer 1.2"
-TITLE="Welcome $USER :) "
+TITLE="RTL8812au"
 MENU="Choose one of the following distros or options:"
 
 OPTIONS=(1 "Arch/Manjaro/Antergos"
@@ -772,3 +795,11 @@ echo -e "\e[40;38;5;82m Alright :) \e[30;48;5;82m\e[0m"
 
 esac
 esac
+
+
+            ;;
+        2)
+			#!/bin/bash
+
+esac
+
