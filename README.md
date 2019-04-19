@@ -2,8 +2,6 @@
 
 Should you have a problem during installation or general with the driver then let me know :)
 
-Currently, the installer use the repository of "[gordboy](https://github.com/gordboy/rtl8812au)"
-
 # Features
 
 - The driver will be installed automatically with all required dependencies.
@@ -19,7 +17,7 @@ Currently, the installer use the repository of "[gordboy](https://github.com/gor
 
 # Supported realtek wifi adapters
 
-- RTL8812au
+- RTL8812au by [gordboy](https://github.com/gordboy/rtl8812au)
 - RTL8188eu, RTL8188eus and RTL8188etv (soon)
 - RTL8821CE (soon)
 
@@ -28,13 +26,13 @@ Before you start installing the WiFi driver, make sure you have all the updates 
 
 # Installation/Uninstallation
 
-Download the latest release from [here](https://github.com/Alexander88207/RTL8812au-Installer/releases).
+Download the latest stable release from [here](https://github.com/Alexander88207/RTL8812au-Installer/releases) or if you are brave use my [testing](https://github.com/Alexander88207/RTL8812au-Installer/tree/testing) branch ;)
 
 To start this installer use the follwing command in the folder:
 ```
 bash Installer.sh
 ```
-![](https://www.bilder-upload.eu/upload/08fede-1553274259.png)
+![](https://www.bilder-upload.eu/upload/825e72-1555589358.png)
 
 To uninstall this driver select "uninstall"
 
