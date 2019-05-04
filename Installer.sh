@@ -6,7 +6,7 @@ sudo apt install dialog
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=3
-BACKTITLE="RTL8812au-Installer 1.2.1"
+BACKTITLE="RTL-Driver-Installer 1.2.1"
 TITLE="Welcome $USER :)"
 MENU="What driver do you want to install?:"
 
