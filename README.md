@@ -1,4 +1,4 @@
-# RTL8812au-Installer <img alt="GitHub release" src="https://img.shields.io/github/release/Alexander88207/RTL8812au-Installer.svg">
+# RTL-Installer <img alt="GitHub release" src="https://img.shields.io/github/release/Alexander88207/RTL8812au-Installer.svg">
 
 Should you have a problem during installation or general with the driver then let me know :)
 
