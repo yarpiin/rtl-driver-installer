@@ -2,12 +2,35 @@
 echo -e "\e[40;38;5;82m Installing dependencies to run this script \e[30;48;5;82m\e[0m"
 sudo eopkg it dialog
 sudo apt install dialog
-#/bin/bash
+#!/bin/bash
+HEIGHT=15
+WIDTH=40
+CHOICE_HEIGHT=3
+BACKTITLE="RTL8812au-Installer 1.2.1"
+TITLE="Welcome $USER :)"
+MENU="What driver do you want to install?:"
+
+OPTIONS=(1 "RTL8812au"
+         2 "RTL8188eu, RTL8188eus & RTL8188etv"
+         3 "RTL8821CE")
+
+CHOICE=$(dialog --clear \
+                --backtitle "$BACKTITLE" \
+                --title "$TITLE" \
+                --menu "$MENU" \
+                $HEIGHT $WIDTH $CHOICE_HEIGHT \
+                "${OPTIONS[@]}" \
+                2>&1 >/dev/tty)
+
+clear
+case $CHOICE in
+        1)
+			#!/bin/bash
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=7
-BACKTITLE="RTL8812au-Installer 1.2"
-TITLE="Welcome $USER :) "
+BACKTITLE="RTL-Driver-Installer 1.2.1"
+TITLE="RTL8812au"
 MENU="Choose one of the following distros or options:"
 
 OPTIONS=(1 "Arch/Manjaro/Antergos"
@@ -47,7 +70,7 @@ sudo eopkg it gcc binutils git make
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=2
-BACKTITLE="RTL8812au-Installer 1.2"
+BACKTITLE="RTL-Driver-Installer 1.2.1"
 TITLE="Question about Solus Kernel"
 MENU="What kernel do you use?:"
 
@@ -81,7 +104,7 @@ read -p "Press enter to continue"
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=2
-BACKTITLE="RTL8812au-Installer 1.2"
+BACKTITLE="RTL-Driver-Installer 1.2.1"
 TITLE="Reinstall after kernel update"
 MENU="Should this installer leave files for a reinstallation after a kernel update?:"
 
@@ -136,7 +159,7 @@ read -p "Press enter to continue"
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=2
-BACKTITLE="RTL8812au-Installer 1.2"
+BACKTITLE="RTL-Driver-Installer 1.2.1"
 TITLE="Reinstall after kernel update"
 MENU="Should this installer leave files for a reinstallation after a kernel update?:"
 
@@ -195,7 +218,7 @@ read -p "Press enter to continue"
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=2
-BACKTITLE="RTL8812au-Installer 1.2"
+BACKTITLE="RTL-Driver-Installer 1.2.1"
 TITLE="Reinstall after kernel update"
 MENU="Should this installer leave files for a reinstallation after a kernel update?:"
 
@@ -238,7 +261,7 @@ esac
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=7
-BACKTITLE="RTL8812au-Installer 1.2"
+BACKTITLE="RTL-Driver-Installer 1.2.1"
 TITLE="Sabayon sources installation"
 MENU="Choose your kernel version of sabayon:"
 
@@ -248,7 +271,7 @@ OPTIONS=(1 "4.4"
          4 "4.18"
 	 5 "4.19"
 	 6 "4.20"
-         7 "5.05")
+         7 "5.09")
 
 CHOICE=$(dialog --clear \
                 --backtitle "$BACKTITLE" \
@@ -279,7 +302,7 @@ read -p "Press enter to continue"
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=2
-BACKTITLE="RTL8812au-Installer 1.2"
+BACKTITLE="RTL-Driver-Installer 1.2.1"
 TITLE="Reinstall after kernel update"
 MENU="Should this installer leave files for a reinstallation after a kernel update?:"
 
@@ -335,7 +358,7 @@ read -p "Press enter to continue"
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=2
-BACKTITLE="RTL8812au-Installer 1.2"
+BACKTITLE="RTL-Driver-Installer 1.2.1"
 TITLE="Reinstall after kernel update"
 MENU="Should this installer leave files for a reinstallation after a kernel update?:"
 
@@ -391,7 +414,7 @@ read -p "Press enter to continue"
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=2
-BACKTITLE="RTL8812au-Installer 1.2"
+BACKTITLE="RTL-Driver-Installer 1.2.1"
 TITLE="Reinstall after kernel update"
 MENU="Should this installer leave files for a reinstallation after a kernel update?:"
 
@@ -447,7 +470,7 @@ read -p "Press enter to continue"
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=2
-BACKTITLE="RTL8812au-Installer 1.2"
+BACKTITLE="RTL-Driver-Installer 1.2.1"
 TITLE="Reinstall after kernel update"
 MENU="Should this installer leave files for a reinstallation after a kernel update?:"
 
@@ -503,7 +526,7 @@ read -p "Press enter to continue"
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=2
-BACKTITLE="RTL8812au-Installer 1.2"
+BACKTITLE="RTL-Driver-Installer 1.2.1"
 TITLE="Reinstall after kernel update"
 MENU="Should this installer leave files for a reinstallation after a kernel update?:"
 
@@ -558,7 +581,7 @@ read -p "Press enter to continue"
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=2
-BACKTITLE="RTL8812au-Installer 1.2"
+BACKTITLE="RTL-Driver-Installer 1.2.1"
 TITLE="Reinstall after kernel update"
 MENU="Should this installer leave files for a reinstallation after a kernel update?:"
 
@@ -600,7 +623,7 @@ esac
 			#!/bin/bash
 echo -e "\e[40;38;5;82m Installing dependencies \e[30;48;5;82m\e[0m"
 sudo equo install gcc --ask
-sudo equo i sys-kernel/sabayon-sources:5.0.5 --ask
+sudo equo i sys-kernel/sabayon-sources:5.0.9 --ask
 echo -e "\e[40;38;5;82m Downloading driver \e[30;48;5;82m\e[0m"
 git clone https://github.com/gordboy/rtl8812au.git
 cd rtl8812au
@@ -615,7 +638,7 @@ read -p "Press enter to continue"
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=2
-BACKTITLE="RTL8812au-Installer 1.2"
+BACKTITLE="RTL-Driver-Installer 1.2.1"
 TITLE="Reinstall after kernel update"
 MENU="Should this installer leave files for a reinstallation after a kernel update?:"
 
@@ -675,7 +698,7 @@ read -p "Press enter to continue"
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=2
-BACKTITLE="RTL8812au-Installer 1.2"
+BACKTITLE="RTL-Driver-Installer 1.2.1"
 TITLE="Reinstall after kernel update"
 MENU="Should this installer leave files for a reinstallation after a kernel update?:"
 
@@ -716,7 +739,6 @@ esac
 			#!/bin/bash
 git clone https://github.com/gordboy/rtl8812au
 cd rtl8812au
-make
 sudo make uninstall
 # for arch
 sudo pacman -R rtl8812au-dkms-git
@@ -736,7 +758,7 @@ echo -e "\e[40;38;5;82m Done :) \e[30;48;5;82m You can now use your wifi adapter
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=2
-BACKTITLE="RTL8812au-Installer 1.2"
+BACKTITLE="RTL-Driver-Installer 1.2.1"
 TITLE="Reinstall after kernel update"
 MENU="Should this installer leave files for a reinstallation after a kernel update?:"
 
@@ -772,3 +794,11 @@ echo -e "\e[40;38;5;82m Alright :) \e[30;48;5;82m\e[0m"
 
 esac
 esac
+
+
+            ;;
+        2)
+			#!/bin/bash
+
+esac
+
