@@ -1,4 +1,4 @@
-# RTL8812au-Installer <img alt="GitHub release" src="https://img.shields.io/github/release/Alexander88207/RTL8812au-Installer.svg">
+# RTL-Driver-Installer <img alt="GitHub release" src="https://img.shields.io/github/release/Alexander88207/RTL8812au-Installer.svg">
 
 Should you have a problem during installation or general with the driver then let me know :)
 
@@ -39,7 +39,7 @@ To uninstall this driver select "uninstall"
 
 # FAQ
 
-- Why i have package loss or bad ms? for example like this https://pastebin.com/sH9T1NaD
+- Why i have package loss or bad ms? for example like [this](https://hastebin.com/ebusamonev.coffeescript)
 
 If you encounter this error, try another USB port first. If this is not enough, adjust your antennas if you have them on your adapter. For testing, a ping request is sufficient to routher via a terminal with the command  "ping 192.168.2.1 ". The IP address could be different for your routher. And make sure before that all programs are closed and no one else just overloaded the network. 
 
