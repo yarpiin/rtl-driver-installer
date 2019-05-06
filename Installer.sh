@@ -6,7 +6,7 @@ sudo apt install dialog
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=3
-BACKTITLE="RTL8812au-Installer 1.2.1"
+BACKTITLE="RTL-Driver-Installer 1.2.1"
 TITLE="Welcome $USER :)"
 MENU="What driver do you want to install?:"
 
@@ -293,7 +293,7 @@ git clone https://github.com/gordboy/rtl8812au.git
 cd rtl8812au
 echo -e "\e[40;38;5;82m Building driver \e[30;48;5;82m\e[0m"
 make
-echo -e "\e[40;38;5;82m Installing drMerge pull request #13 from Alexander88207/masteriver \e[30;48;5;82m\e[0m"
+echo -e "\e[40;38;5;82m Installing driver \e[30;48;5;82m\e[0m"
 sudo make install
 sudo modprobe 8812au
 echo -e "\e[40;38;5;82m Done :) \e[30;48;5;82m You can now use your wifi adapter! \e[0m"
