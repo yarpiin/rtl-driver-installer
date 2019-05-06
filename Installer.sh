@@ -70,7 +70,7 @@ sudo eopkg it gcc binutils git make
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=2
-BACKTITLE="RTL-Driver-Installer 1.2.2"
+BACKTITLE="RTL-Driver-Installer 1.2.1"
 TITLE="Question about Solus Kernel"
 MENU="What kernel do you use?:"
 
