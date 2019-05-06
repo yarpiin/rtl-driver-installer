@@ -70,7 +70,7 @@ sudo eopkg it gcc binutils git make
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=2
-BACKTITLE="RTL-Driver-Installer 1.2.1"
+BACKTITLE="RTL-Driver-Installer 1.2.2"
 TITLE="Question about Solus Kernel"
 MENU="What kernel do you use?:"
 
@@ -271,7 +271,7 @@ OPTIONS=(1 "4.4"
          4 "4.18"
 	 5 "4.19"
 	 6 "4.20"
-         7 "5.09")
+         7 "5.x.x")
 
 CHOICE=$(dialog --clear \
                 --backtitle "$BACKTITLE" \
@@ -623,7 +623,7 @@ esac
 			#!/bin/bash
 echo -e "\e[40;38;5;82m Installing dependencies \e[30;48;5;82m\e[0m"
 sudo equo install gcc --ask
-sudo equo i sys-kernel/sabayon-sources:5.0.9 --ask
+sudo equo i sys-kernel/sabayon-sources:5.0 --ask
 echo -e "\e[40;38;5;82m Downloading driver \e[30;48;5;82m\e[0m"
 git clone https://github.com/gordboy/rtl8812au.git
 cd rtl8812au
