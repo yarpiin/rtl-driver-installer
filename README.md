@@ -18,9 +18,12 @@ Should you have a problem during installation or general with the driver then le
 # Supported realtek wifi adapters
 
 - RTL8812au by [gordboy](https://github.com/gordboy/rtl8812au)
-- RTL8188eu, RTL8188eus and RTL8188etv (soon)
+- RTL8188eu, RTL8188eus & RTL8188etv (soon)
 - RTL8821ce (soon)
 - RTL8192du (soon)
+- RTL8723be (soon)
+
+Note: If your desired driver is not there or does not work please open an issue.
 
 # Preparations
 Before you start installing the WiFi driver, make sure you have all the updates installed. If you have previously installed a kernel update, restart your computer to avoid errors during installation.
@@ -33,9 +36,12 @@ To start this installer use the follwing command in the folder:
 ```
 bash Installer.sh
 ```
-![](https://www.bilder-upload.eu/upload/825e72-1555589358.png)
 
 To uninstall this driver select "uninstall"
+
+## See how this works!
+
+<a href="https://www.youtube.com/watch?v=hGLh3bI8WLg"><img src="https://www.bilder-upload.eu/upload/7f26bd-1557222110.jpg" style="width:82px; height:86px" title="White flower" alt="Flower"></a>
 
 # FAQ
 
