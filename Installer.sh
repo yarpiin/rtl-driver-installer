@@ -835,7 +835,7 @@ echo -e "\e[40;38;5;82m Building driver \e[30;48;5;82m\e[0m"
 make all
 echo -e "\e[40;38;5;82m Installing driver \e[30;48;5;82m\e[0m"
 sudo make install
-sudo modprobe 8188eus
+sudo modprobe 8188eu
 echo -e "\e[40;38;5;82m Done :) \e[30;48;5;82m You can now use your wifi adapter! \e[0m"
             ;;
         2)
@@ -1526,7 +1526,7 @@ echo -e "\e[40;38;5;82m Building driver \e[30;48;5;82m\e[0m"
 make all
 echo -e "\e[40;38;5;82m Installing driver \e[30;48;5;82m\e[0m"
 sudo make install
-sudo modprobe 8188eus
+sudo modprobe 8188eu
 echo -e "\e[40;38;5;82m Done :) \e[30;48;5;82m You can now use your wifi adapter again! \e[0m"
 #!/bin/bash
 HEIGHT=15
