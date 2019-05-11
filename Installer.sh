@@ -6,7 +6,7 @@ sudo apt install dialog
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=3
-BACKTITLE="RTL-Driver-Installer 1.2.1"
+BACKTITLE="RTL-Driver-Installer 1.3"
 TITLE="Welcome $USER :)"
 MENU="What driver do you want to install?:"
 
@@ -29,7 +29,7 @@ case $CHOICE in
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=7
-BACKTITLE="RTL-Driver-Installer 1.2.1"
+BACKTITLE="RTL-Driver-Installer 1.3"
 TITLE="RTL8812au"
 MENU="Choose one of the following distros or options:"
 
@@ -70,7 +70,7 @@ sudo eopkg it gcc binutils git make
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=2
-BACKTITLE="RTL-Driver-Installer 1.2.1"
+BACKTITLE="RTL-Driver-Installer 1.3"
 TITLE="Question about Solus Kernel"
 MENU="What kernel do you use?:"
 
@@ -104,7 +104,7 @@ read -p "Press enter to continue"
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=2
-BACKTITLE="RTL-Driver-Installer 1.2.1"
+BACKTITLE="RTL-Driver-Installer 1.3"
 TITLE="Reinstall after kernel update"
 MENU="Should this installer leave files for a reinstallation after a kernel update?:"
 
@@ -159,7 +159,7 @@ read -p "Press enter to continue"
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=2
-BACKTITLE="RTL-Driver-Installer 1.2.1"
+BACKTITLE="RTL-Driver-Installer 1.3"
 TITLE="Reinstall after kernel update"
 MENU="Should this installer leave files for a reinstallation after a kernel update?:"
 
@@ -218,7 +218,7 @@ read -p "Press enter to continue"
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=2
-BACKTITLE="RTL-Driver-Installer 1.2.1"
+BACKTITLE="RTL-Driver-Installer 1.3"
 TITLE="Reinstall after kernel update"
 MENU="Should this installer leave files for a reinstallation after a kernel update?:"
 
@@ -261,7 +261,7 @@ esac
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=7
-BACKTITLE="RTL-Driver-Installer 1.2.1"
+BACKTITLE="RTL-Driver-Installer 1.3"
 TITLE="Sabayon sources installation"
 MENU="Choose your kernel version of sabayon:"
 
@@ -302,7 +302,7 @@ read -p "Press enter to continue"
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=2
-BACKTITLE="RTL-Driver-Installer 1.2.1"
+BACKTITLE="RTL-Driver-Installer 1.3"
 TITLE="Reinstall after kernel update"
 MENU="Should this installer leave files for a reinstallation after a kernel update?:"
 
@@ -358,7 +358,7 @@ read -p "Press enter to continue"
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=2
-BACKTITLE="RTL-Driver-Installer 1.2.1"
+BACKTITLE="RTL-Driver-Installer 1.3"
 TITLE="Reinstall after kernel update"
 MENU="Should this installer leave files for a reinstallation after a kernel update?:"
 
@@ -414,7 +414,7 @@ read -p "Press enter to continue"
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=2
-BACKTITLE="RTL-Driver-Installer 1.2.1"
+BACKTITLE="RTL-Driver-Installer 1.3"
 TITLE="Reinstall after kernel update"
 MENU="Should this installer leave files for a reinstallation after a kernel update?:"
 
@@ -470,7 +470,7 @@ read -p "Press enter to continue"
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=2
-BACKTITLE="RTL-Driver-Installer 1.2.1"
+BACKTITLE="RTL-Driver-Installer 1.3"
 TITLE="Reinstall after kernel update"
 MENU="Should this installer leave files for a reinstallation after a kernel update?:"
 
@@ -526,7 +526,7 @@ read -p "Press enter to continue"
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=2
-BACKTITLE="RTL-Driver-Installer 1.2.1"
+BACKTITLE="RTL-Driver-Installer 1.3"
 TITLE="Reinstall after kernel update"
 MENU="Should this installer leave files for a reinstallation after a kernel update?:"
 
@@ -581,7 +581,7 @@ read -p "Press enter to continue"
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=2
-BACKTITLE="RTL-Driver-Installer 1.2.1"
+BACKTITLE="RTL-Driver-Installer 1.3"
 TITLE="Reinstall after kernel update"
 MENU="Should this installer leave files for a reinstallation after a kernel update?:"
 
@@ -638,7 +638,7 @@ read -p "Press enter to continue"
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=2
-BACKTITLE="RTL-Driver-Installer 1.2.1"
+BACKTITLE="RTL-Driver-Installer 1.3"
 TITLE="Reinstall after kernel update"
 MENU="Should this installer leave files for a reinstallation after a kernel update?:"
 
@@ -698,7 +698,7 @@ read -p "Press enter to continue"
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=2
-BACKTITLE="RTL-Driver-Installer 1.2.1"
+BACKTITLE="RTL-Driver-Installer 1.3"
 TITLE="Reinstall after kernel update"
 MENU="Should this installer leave files for a reinstallation after a kernel update?:"
 
@@ -758,7 +758,7 @@ echo -e "\e[40;38;5;82m Done :) \e[30;48;5;82m You can now use your wifi adapter
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=2
-BACKTITLE="RTL-Driver-Installer 1.2.1"
+BACKTITLE="RTL-Driver-Installer 1.3"
 TITLE="Reinstall after kernel update"
 MENU="Should this installer leave files for a reinstallation after a kernel update?:"
 
@@ -802,7 +802,7 @@ esac
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=7
-BACKTITLE="RTL-Driver-Installer 1.2.1"
+BACKTITLE="RTL-Driver-Installer 1.3"
 TITLE="RTL8188eu, RTL8188eus & RTL8188etv"
 MENU="Choose one of the following distros or options:"
 
@@ -837,6 +837,47 @@ echo -e "\e[40;38;5;82m Installing driver \e[30;48;5;82m\e[0m"
 sudo make install
 sudo modprobe 8188eu
 echo -e "\e[40;38;5;82m Done :) \e[30;48;5;82m You can now use your wifi adapter! \e[0m"
+#!/bin/bash
+HEIGHT=15
+WIDTH=40
+CHOICE_HEIGHT=2
+BACKTITLE="RTL-Driver-Installer 1.3"
+TITLE="Reinstall after kernel update"
+MENU="Should this installer leave files for a reinstallation after a kernel update?:"
+
+OPTIONS=(1 "Yes"
+         2 "No")
+
+CHOICE=$(dialog --clear \
+                --backtitle "$BACKTITLE" \
+                --title "$TITLE" \
+                --menu "$MENU" \
+                $HEIGHT $WIDTH $CHOICE_HEIGHT \
+                "${OPTIONS[@]}" \
+                2>&1 >/dev/tty)
+
+clear
+case $CHOICE in
+        1)
+			#!/bin/bash
+cd -
+echo -e "\e[40;38;5;82m Removeing old files \e[30;48;5;82m\e[0m"
+rm -rf rtl8188eus
+echo -e "\e[40;38;5;82m Downloading driver \e[30;48;5;82m\e[0m"
+git clone https://github.com/quickreflex/rtl8188eus
+echo -e "\e[40;38;5;82m Done :) \e[30;48;5;82m \e[0m"
+
+            ;;
+        2)
+			#!/bin/bash
+cd -
+echo -e "\e[40;38;5;82m Removeing old files \e[30;48;5;82m\e[0m"
+rm -rf rtl88eus
+echo -e "\e[40;38;5;82m Alright :) \e[30;48;5;82m\e[0m"
+
+esac
+
+
             ;;
         2)
 			#!/bin/bash
@@ -846,7 +887,7 @@ sudo eopkg it gcc binutils git make
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=2
-BACKTITLE="RTL-Driver-Installer 1.2.1"
+BACKTITLE="RTL-Driver-Installer 1.3"
 TITLE="Question about Solus Kernel"
 MENU="What kernel do you use?:"
 
@@ -880,7 +921,7 @@ read -p "Press enter to continue"
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=2
-BACKTITLE="RTL-Driver-Installer 1.2.1"
+BACKTITLE="RTL-Driver-Installer 1.3"
 TITLE="Reinstall after kernel update"
 MENU="Should this installer leave files for a reinstallation after a kernel update?:"
 
@@ -926,7 +967,7 @@ git clone https://github.com/quickreflex/rtl8188eus
 cd rtl8188eus
 echo -e "\e[40;38;5;82m Building driver \e[30;48;5;82m\e[0m"
 make all
-cho -e "\e[40;38;5;82m Installing driver \e[30;48;5;82m\e[0m"
+echo -e "\e[40;38;5;82m Installing driver \e[30;48;5;82m\e[0m"
 sudo make install
 sudo modprobe 8188eu
 echo -e "\e[40;38;5;82m Done :) \e[30;48;5;82m You can now use your wifi adapter! \e[0m"
@@ -935,7 +976,7 @@ read -p "Press enter to continue"
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=2
-BACKTITLE="RTL-Driver-Installer 1.2.1"
+BACKTITLE="RTL-Driver-Installer 1.3"
 TITLE="Reinstall after kernel update"
 MENU="Should this installer leave files for a reinstallation after a kernel update?:"
 
@@ -994,7 +1035,7 @@ read -p "Press enter to continue"
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=2
-BACKTITLE="RTL-Driver-Installer 1.2.1"
+BACKTITLE="RTL-Driver-Installer 1.3"
 TITLE="Reinstall after kernel update"
 MENU="Should this installer leave files for a reinstallation after a kernel update?:"
 
@@ -1037,7 +1078,7 @@ esac
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=7
-BACKTITLE="RTL-Driver-Installer 1.2.1"
+BACKTITLE="RTL-Driver-Installer 1.3"
 TITLE="Sabayon sources installation"
 MENU="Choose your kernel version of sabayon:"
 
@@ -1078,7 +1119,7 @@ read -p "Press enter to continue"
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=2
-BACKTITLE="RTL-Driver-Installer 1.2.1"
+BACKTITLE="RTL-Driver-Installer 1.3"
 TITLE="Reinstall after kernel update"
 MENU="Should this installer leave files for a reinstallation after a kernel update?:"
 
@@ -1134,7 +1175,7 @@ read -p "Press enter to continue"
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=2
-BACKTITLE="RTL-Driver-Installer 1.2.1"
+BACKTITLE="RTL-Driver-Installer 1.3"
 TITLE="Reinstall after kernel update"
 MENU="Should this installer leave files for a reinstallation after a kernel update?:"
 
@@ -1190,7 +1231,7 @@ read -p "Press enter to continue"
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=2
-BACKTITLE="RTL-Driver-Installer 1.2.1"
+BACKTITLE="RTL-Driver-Installer 1.3"
 TITLE="Reinstall after kernel update"
 MENU="Should this installer leave files for a reinstallation after a kernel update?:"
 
@@ -1246,7 +1287,7 @@ read -p "Press enter to continue"
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=2
-BACKTITLE="RTL-Driver-Installer 1.2.1"
+BACKTITLE="RTL-Driver-Installer 1.3"
 TITLE="Reinstall after kernel update"
 MENU="Should this installer leave files for a reinstallation after a kernel update?:"
 
@@ -1302,7 +1343,7 @@ read -p "Press enter to continue"
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=2
-BACKTITLE="RTL-Driver-Installer 1.2.1"
+BACKTITLE="RTL-Driver-Installer 1.3"
 TITLE="Reinstall after kernel update"
 MENU="Should this installer leave files for a reinstallation after a kernel update?:"
 
@@ -1357,7 +1398,7 @@ read -p "Press enter to continue"
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=2
-BACKTITLE="RTL-Driver-Installer 1.2.1"
+BACKTITLE="RTL-Driver-Installer 1.3"
 TITLE="Reinstall after kernel update"
 MENU="Should this installer leave files for a reinstallation after a kernel update?:"
 
@@ -1414,7 +1455,7 @@ read -p "Press enter to continue"
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=2
-BACKTITLE="RTL-Driver-Installer 1.2.1"
+BACKTITLE="RTL-Driver-Installer 1.3"
 TITLE="Reinstall after kernel update"
 MENU="Should this installer leave files for a reinstallation after a kernel update?:"
 
@@ -1474,7 +1515,7 @@ read -p "Press enter to continue"
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=2
-BACKTITLE="RTL-Driver-Installer 1.2.1"
+BACKTITLE="RTL-Driver-Installer 1.3"
 TITLE="Reinstall after kernel update"
 MENU="Should this installer leave files for a reinstallation after a kernel update?:"
 
@@ -1527,12 +1568,12 @@ make all
 echo -e "\e[40;38;5;82m Installing driver \e[30;48;5;82m\e[0m"
 sudo make install
 sudo modprobe 8188eu
-echo -e "\e[40;38;5;82m Done :) \e[30;48;5;82m You can now use your wifi adapter again! \e[0m"
+echo -e "\e[40;38;5;82m Done :) \e[30;48;5;82m You can now use your wifi adapter again! \e[0m"á
 #!/bin/bash
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=2
-BACKTITLE="RTL-Driver-Installer 1.2.1"
+BACKTITLE="RTL-Driver-Installer 1.3"
 TITLE="Reinstall after kernel update"
 MENU="Should this installer leave files for a reinstallation after a kernel update?:"
 
@@ -1576,7 +1617,7 @@ esac
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=7
-BACKTITLE="RTL-Driver-Installer 1.2.1"
+BACKTITLE="RTL-Driver-Installer 1.3"
 TITLE="RTL8821ce"
 MENU="Choose one of the following distros or options:"
 
@@ -1611,6 +1652,45 @@ echo -e "\e[40;38;5;82m Installing driver \e[30;48;5;82m\e[0m"
 sudo make install
 sudo modprobe 8821ce
 echo -e "\e[40;38;5;82m Done :) \e[30;48;5;82m You can now use your wifi adapter! \e[0m"
+#!/bin/bash
+HEIGHT=15
+WIDTH=40
+CHOICE_HEIGHT=2
+BACKTITLE="RTL-Driver-Installer 1.3"
+TITLE="Reinstall after kernel update"
+MENU="Should this installer leave files for a reinstallation after a kernel update?:"
+
+OPTIONS=(1 "Yes"
+         2 "No")
+
+CHOICE=$(dialog --clear \
+                --backtitle "$BACKTITLE" \
+                --title "$TITLE" \
+                --menu "$MENU" \
+                $HEIGHT $WIDTH $CHOICE_HEIGHT \
+                "${OPTIONS[@]}" \
+                2>&1 >/dev/tty)
+
+clear
+case $CHOICE in
+        1)
+			#!/bin/bash
+cd -
+echo -e "\e[40;38;5;82m Removeing old files \e[30;48;5;82m\e[0m"
+rm -rf rtl8821ce
+echo -e "\e[40;38;5;82m Downloading driver \e[30;48;5;82m\e[0m"
+git clone https://github.com/tomaspinho/rtl8821ce
+echo -e "\e[40;38;5;82m Done :) \e[30;48;5;82m \e[0m"
+
+            ;;
+        2)
+			#!/bin/bash
+cd -
+echo -e "\e[40;38;5;82m Removeing old files \e[30;48;5;82m\e[0m"
+rm -rf rtl8821ce
+echo -e "\e[40;38;5;82m Alright :) \e[30;48;5;82m\e[0m"
+
+esac
             ;;
         2)
 			#!/bin/bash
@@ -1620,7 +1700,7 @@ sudo eopkg it gcc binutils git make
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=2
-BACKTITLE="RTL-Driver-Installer 1.2.1"
+BACKTITLE="RTL-Driver-Installer 1.3"
 TITLE="Question about Solus Kernel"
 MENU="What kernel do you use?:"
 
@@ -1654,7 +1734,7 @@ read -p "Press enter to continue"
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=2
-BACKTITLE="RTL-Driver-Installer 1.2.1"
+BACKTITLE="RTL-Driver-Installer 1.3"
 TITLE="Reinstall after kernel update"
 MENU="Should this installer leave files for a reinstallation after a kernel update?:"
 
@@ -1709,7 +1789,7 @@ read -p "Press enter to continue"
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=2
-BACKTITLE="RTL-Driver-Installer 1.2.1"
+BACKTITLE="RTL-Driver-Installer 1.3"
 TITLE="Reinstall after kernel update"
 MENU="Should this installer leave files for a reinstallation after a kernel update?:"
 
@@ -1768,7 +1848,7 @@ read -p "Press enter to continue"
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=2
-BACKTITLE="RTL-Driver-Installer 1.2.1"
+BACKTITLE="RTL-Driver-Installer 1.3"
 TITLE="Reinstall after kernel update"
 MENU="Should this installer leave files for a reinstallation after a kernel update?:"
 
@@ -1811,7 +1891,7 @@ esac
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=7
-BACKTITLE="RTL-Driver-Installer 1.2.1"
+BACKTITLE="RTL-Driver-Installer 1.3"
 TITLE="Sabayon sources installation"
 MENU="Choose your kernel version of sabayon:"
 
@@ -1852,7 +1932,7 @@ read -p "Press enter to continue"
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=2
-BACKTITLE="RTL-Driver-Installer 1.2.1"
+BACKTITLE="RTL-Driver-Installer 1.3"
 TITLE="Reinstall after kernel update"
 MENU="Should this installer leave files for a reinstallation after a kernel update?:"
 
@@ -1908,7 +1988,7 @@ read -p "Press enter to continue"
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=2
-BACKTITLE="RTL-Driver-Installer 1.2.1"
+BACKTITLE="RTL-Driver-Installer 1.3"
 TITLE="Reinstall after kernel update"
 MENU="Should this installer leave files for a reinstallation after a kernel update?:"
 
@@ -1964,7 +2044,7 @@ read -p "Press enter to continue"
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=2
-BACKTITLE="RTL-Driver-Installer 1.2.1"
+BACKTITLE="RTL-Driver-Installer 1.3"
 TITLE="Reinstall after kernel update"
 MENU="Should this installer leave files for a reinstallation after a kernel update?:"
 
@@ -2020,7 +2100,7 @@ read -p "Press enter to continue"
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=2
-BACKTITLE="RTL-Driver-Installer 1.2.1"
+BACKTITLE="RTL-Driver-Installer 1.3"
 TITLE="Reinstall after kernel update"
 MENU="Should this installer leave files for a reinstallation after a kernel update?:"
 
@@ -2076,7 +2156,7 @@ read -p "Press enter to continue"
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=2
-BACKTITLE="RTL-Driver-Installer 1.2.1"
+BACKTITLE="RTL-Driver-Installer 1.3"
 TITLE="Reinstall after kernel update"
 MENU="Should this installer leave files for a reinstallation after a kernel update?:"
 
@@ -2131,7 +2211,7 @@ read -p "Press enter to continue"
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=2
-BACKTITLE="RTL-Driver-Installer 1.2.1"
+BACKTITLE="RTL-Driver-Installer 1.3"
 TITLE="Reinstall after kernel update"
 MENU="Should this installer leave files for a reinstallation after a kernel update?:"
 
@@ -2188,7 +2268,7 @@ read -p "Press enter to continue"
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=2
-BACKTITLE="RTL-Driver-Installer 1.2.1"
+BACKTITLE="RTL-Driver-Installer 1.3"
 TITLE="Reinstall after kernel update"
 MENU="Should this installer leave files for a reinstallation after a kernel update?:"
 
@@ -2248,7 +2328,7 @@ read -p "Press enter to continue"
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=2
-BACKTITLE="RTL-Driver-Installer 1.2.1"
+BACKTITLE="RTL-Driver-Installer 1.3"
 TITLE="Reinstall after kernel update"
 MENU="Should this installer leave files for a reinstallation after a kernel update?:"
 
@@ -2306,7 +2386,7 @@ echo -e "\e[40;38;5;82m Done :) \e[30;48;5;82m You can now use your wifi adapter
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=2
-BACKTITLE="RTL-Driver-Installer 1.2.1"
+BACKTITLE="RTL-Driver-Installer 1.3"
 TITLE="Reinstall after kernel update"
 MENU="Should this installer leave files for a reinstallation after a kernel update?:"
 
