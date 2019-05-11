@@ -15,7 +15,7 @@ Should you have a problem during installation or general with the driver then le
 - Sabayon
 - OpenSUSE
 
-# Supported realtek wifi adapters
+# Supported realtek wifi drivers
 
 - RTL8812au by [gordboy](https://github.com/gordboy/rtl8812au)
 - RTL8188eu, RTL8188eus & RTL8188etv by [quckreflex](https://github.com/quickreflex/rtl8188eus)
