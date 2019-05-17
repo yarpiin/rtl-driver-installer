@@ -2,12 +2,12 @@
 
 Should you have a problem during installation or general with the driver then let me know :)
 
-# Features
+# Features &#x1F4D8;
 
 - The driver will be installed automatically with all required dependencies.
 - Offline installation : Install your driver again if you lose your connection after a kernel update.
 
-# Supported distributions
+# Supported distributions :computer:
 
 - Arch/Manjaro/Antergos
 - Solus
@@ -15,7 +15,7 @@ Should you have a problem during installation or general with the driver then le
 - Sabayon
 - OpenSUSE
 
-# Supported realtek wifi adapters
+# Supported realtek wifi drivers :wrench:
 
 - RTL8812au by [gordboy](https://github.com/gordboy/rtl8812au)
 - RTL8188eu, RTL8188eus & RTL8188etv by [quckreflex](https://github.com/quickreflex/rtl8188eus)
@@ -25,10 +25,10 @@ Should you have a problem during installation or general with the driver then le
 
 Note: If your desired driver is not there or does not work please open an issue.
 
-# Preparations
+# Preparations :clipboard:
 Before you start installing the WiFi driver, make sure you have all the updates installed. If you have previously installed a kernel update, restart your computer to avoid errors during installation.
 
-# Installation/Uninstallation
+# Installation/Uninstallation :cd:
 
 Download the latest stable release from [here](https://github.com/Alexander88207/RTL8812au-Installer/releases) or if you are brave use my [testing](https://github.com/Alexander88207/RTL8812au-Installer/tree/testing) branch ;)
 
@@ -39,11 +39,11 @@ bash Installer.sh
 
 To uninstall this driver select "uninstall"
 
-## See how this works!
+## See how this works! :eyes:
 
 <a href="https://www.youtube.com/watch?v=hGLh3bI8WLg"><img src="https://www.bilder-upload.eu/upload/7f26bd-1557222110.jpg" style="width:82px; height:86px" title="White flower" alt="Flower"></a>
 
-# FAQ
+# FAQ :speech_balloon:
 
 - Why i have package loss or bad ms? for example like [this](https://hastebin.com/ebusamonev.coffeescript)
 
@@ -51,7 +51,7 @@ If you encounter this error, try another USB port first. If this is not enough, 
 
 - Why does my device suddenly stop working after an update?
 
-This happens when the linux kernel was updated. The only solution is to reinstall the driver again. This is not needed for the Arch installation!
+This happens when the linux kernel was updated. The only solution is to reinstall the driver again. This is not needed for the Arch installation of the RTL8812au driver!
 
-## Contriubute
+## Contriubute :pencil2:
 if you want to contribute to this repo then just send a pull request :)
