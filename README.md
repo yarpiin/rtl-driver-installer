@@ -20,7 +20,6 @@ Should you have a problem during installation or general with the driver then le
 - RTL8812au by [gordboy](https://github.com/gordboy/rtl8812au)
 - RTL8188eu, RTL8188eus & RTL8188etv by [quckreflex](https://github.com/quickreflex/rtl8188eus)
 - RTL8821ce by [tomaspinho](https://github.com/tomaspinho/rtl8821ce)
-- RTL8192du (soon)
 - RTL8723be (soon)
 
 Note: If your desired driver is not there or does not work please open an issue.
