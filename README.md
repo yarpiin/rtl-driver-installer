@@ -15,6 +15,7 @@ Should you have a problem during installation or general with the driver then le
 - Sabayon
 - OpenSUSE
 
+
 # Supported realtek wifi drivers :wrench:
 
 - RTL8812au by [gordboy](https://github.com/gordboy/rtl8812au)
