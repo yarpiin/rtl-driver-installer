@@ -1,4 +1,4 @@
-# RTL-Driver-Installer <img alt="GitHub release" src="https://img.shields.io/github/release/Alexander88207/RTL8812au-Installer.svg">
+# RTL-Driver-Installer [![CodeFactor](https://www.codefactor.io/repository/github/alexander88207/rtl-driver-installer/badge/master)](https://www.codefactor.io/repository/github/alexander88207/rtl-driver-installer/overview/master) <img alt="GitHub release" src="https://img.shields.io/github/release/Alexander88207/RTL8812au-Installer.svg">
 
 Should you have a problem during installation or general with the driver then let me know :)
 
