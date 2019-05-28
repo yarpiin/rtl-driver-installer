@@ -54,4 +54,4 @@ If you encounter this error, try another USB port first. If this is not enough, 
 This happens when the linux kernel was updated. The only solution is to reinstall the driver again. This is not needed for the Arch installation of the RTL8812au driver!
 
 ## Contribute :pencil2:
-if you want to contribute to this repo then just send a pull request :)
+if you want to contribute to this repo then just send a pull request in the [testing](https://github.com/linuxerus/RTL-Driver-Installer/tree/testing) branch :)
